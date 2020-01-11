@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5sp">
+
+    <TextView
+        android:padding="5sp"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nom d'invocateur"
+        android:textSize="20sp"
+        android:background="#B53B6C"/>
+
+    <LinearLayout
+        android:padding="5sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="#D888A8"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="140sp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="50sp"
+                android:layout_height="50sp" />
+            <TextView
+                android:layout_margin="5sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nom de champion"/>
+        </LinearLayout>
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"/>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="65sp"
+                android:layout_height="65sp"/>
+
+            <TextView
+                android:layout_width="65sp"
+                android:layout_height="65sp"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="65sp"
+                android:layout_height="65sp"/>
+
+            <TextView
+                android:layout_width="65sp"
+                android:layout_height="65sp"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
